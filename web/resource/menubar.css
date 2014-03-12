@@ -1,0 +1,199 @@
+/* 
+    Document   : menubar
+    Created on : Jul 4, 2011, 10:16:34 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.menu-bar
+{
+    width:900px;
+    height:40px;
+    background:rgb(255,255,255) url(image/menu_bar.jpg) repeat-y;
+}
+
+.menu-bar-mini
+{
+    clear:both;
+    width:900px;
+    padding:1.0em 0 1.5em 0;
+    background:rgb(100,100,100) url(image/menu_bar.jpg) repeat-y;
+}
+
+.navigation
+{
+    float:left;
+    width:900px;
+    border:none;
+    background:rgb(220,220,220) url(image/navigation.jpg) repeat-x;
+    color:rgb(75,75,75);
+    font-size:1.0em;
+    font-size:130%;
+}
+
+.navigation ul
+{
+    list-style-type:none;
+}
+
+.navigation ul li
+{
+    float:left;
+    position:relative;
+    z-index:1000;
+    border-right:solid 1px rgb(175,175,175);
+}
+
+.navigation ul li ul
+{
+    display:none;
+    border:none;
+    margin-left:-30px;
+    padding:0 30px 30px 30px;
+    background:url(image/navigation_hover.gif) top center;
+}
+
+.navigation ul li a
+{
+    float:left;
+    display:block;
+    height:3.1em;
+    line-height:3.1em;
+    padding:0 16px 0 16px;
+    text-decoration:none;
+    font-weight:bold;
+    color: rgb(100,100,100);
+}
+
+.navigation ul li:hover
+{
+    width:auto;
+}
+
+.navigation ul li:hover a
+{
+    background-color:rgb(210,210,210);
+    text-decoration:none;
+}
+
+.navigation ul li:hover ul
+{
+    display:block;
+    position:absolute;
+    z-index:998;
+    top:3.0em;
+    margin-top:0.1em;
+    left:0;
+}
+
+.navigation ul li:hover ul li ul
+{
+    display: none;
+}
+
+.navigation ul li:hover ul li a
+{
+    display:block;
+    width:13em;
+    height:auto;
+    line-height:1.3em;
+    margin-left:-1px;
+    padding:4px 16px 4px 16px;
+    border-left:solid 1px rgb(175,175,175);
+    border-bottom: solid 1px rgb(175,175,175);
+    background-color:rgb(237,237,237);
+    font-weight:normal;
+    color:rgb(50,50,50);
+}
+
+.navigation ul li:hover ul li a:hover
+{
+    background-color:rgb(210,210,210);
+    text-decoration:none;
+}
+
+.navigation ul li a:hover
+{
+    background-color:rgb(210,210,210);
+    text-decoration:none;
+}
+
+.navigation ul li a:hover ul
+{
+    display:block;
+    position:absolute;
+    z-index: 998;
+    top:3.1em;
+    left:0;
+    margin-top:0.1em;
+}
+
+.navigation ul li a:hover ul li a
+{
+    display:block;
+    width:10em;
+    height:1px;
+    line-height:1.3em;
+    padding:4px 16px 4px 16px;
+    border-left:solid 1px rgb(175,175,175);
+    border-bottom: solid 1px rgb(175,175,175);
+    background-color:rgb(237,237,237);
+    font-weight:normal;
+    color:rgb(50,50,50);
+}
+
+.navigation ul li a:hover ul li a ul
+{
+    visibility:hidden;
+    height:0px;
+    width:0px;
+    position:absolute;
+    z-index: 997;
+}
+
+.navigation ul li a:hover ul li a:hover
+{
+    background-color:rgb(210,210,210);
+    text-decoration:none;
+}
+
+.menu-bar-mini ul
+{
+    float:left;
+    width:560px;
+    list-style:none;
+    padding:0 0 0 15px;
+    font-family:verdana,arial,sans-serif;
+}
+
+.menu-bar-mini ul li
+{
+    display:inline;
+    padding:0 0 0 10px;
+    background:transparent url(image/menubar_arrow.gif) no-repeat 0 50%;
+    font-weight:bold;
+    color:rgb(125,125,125);
+    font-size:100%;
+}
+
+.menu-bar-mini ul a
+{
+    color:rgb(70,122,167);
+    text-decoration:none;
+}
+
+.menu-bar-mini ul a:hover
+{
+    color:rgb(42,90,138);
+    text-decoration:underline;
+}
+
+.menu-bar-mini:after
+{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}

@@ -1,0 +1,77 @@
+/* 
+    Document   : display
+    Created on : Jul 8, 2011, 12:48:47 AM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.div-display
+{
+    max-width: 610px;
+    overflow: auto;
+    padding: 20px;
+    margin:10px;
+}
+
+table
+{
+    clear:both;
+    margin:20px auto;
+    border-style: solid;
+    table-layout: fixed;
+    border-color: #000000;
+    empty-cells:show;
+    background-color:rgb(233,232,244);    
+}
+
+table th
+{
+    height:3.5em;
+    padding:0 7px 0 7px;
+    empty-cells:hide;
+    background-color:rgb(175,175,175);
+    color:rgb(255,255,255);
+    font-weight:bold;
+    font-size:130%;
+    border:solid 1px rgb(0,0,0);
+    text-align:center;
+}
+
+table td
+{
+    height:3.0em;
+    padding:2px 7px 2px 7px;
+    border:solid 1px rgb(0,0,0);
+    background-color:rgb(225,225,225);
+    text-align:left;
+    font-weight:normal;
+    color:rgb(80,80,80);
+    font-size:110%;
+}
+
+table.page
+{
+    clear:both;
+    margin:0px auto;
+    border-style: none;
+    empty-cells:show;
+    background-color:rgb(255,255,255);
+}
+
+table.page td
+{
+    height:2.0em;
+    padding:2px 5px 2px 5px;
+    border:thin 1px rgb(0,0,0);
+    background-color:rgb(255,255,255);
+    text-align: center;
+    font-weight:normal;
+    color:rgb(0,0,0);
+    font-size:100%;
+}
+
+table.page td a:hover
+{
+    color: #FF0000;
+}

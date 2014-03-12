@@ -1,0 +1,149 @@
+/* 
+    Document   : header
+    Created on : Jul 4, 2011, 10:06:15 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.header-top
+{
+    width:900px;
+    height:80px;
+    background:rgb(240,240,240) url(image/background_header_top.jpg);
+    overflow:visible !important;
+    overflow:hidden;
+}
+
+.header-bottom
+{
+    width:900px;
+    height:150px;
+    background:rgb(230,230,230) url(image/background_header_bottom.jpg);
+    overflow:visible !important;
+    overflow:hidden;
+}
+
+.site-logo
+{
+    width:60px;
+    height:40px;
+    position:absolute;
+    z-index:1;
+    margin:22px 0 0 20px;
+    background:url(image/college_logo.png);
+}
+
+.site-name
+{
+    width:450px;
+    height:45px;
+    position:absolute;
+    z-index:1;
+    margin:20px 0 0 90px;
+    overflow:visible !important;
+    overflow:hidden;
+}
+
+.site-name h1
+{
+    font-size:240%;
+}
+
+.site-name a
+{
+    text-decoration:none;
+    color:rgb(125,125,125);
+}
+
+.site-name a:hover
+{
+    text-decoration:none;
+    color:rgb(50,50,50);
+}
+
+.site-navigation
+{
+    width:350px;
+    position:absolute;
+    z-index:3;
+    margin:25px 0 0 550px;
+}
+
+.site-navigation ul
+{
+    float:right;
+    padding:0 15px 0 0;
+    font-weight:bold;
+}
+
+.site-navigation li
+{
+    display:inline;
+    list-style:none;
+}
+
+.site-navigation li a
+{
+    display:block;
+    float:left;
+    padding:2px 5px 2px 5px;
+    color:rgb(125,125,125);
+    text-decoration:none;
+    font-size:120%;
+}
+
+.site-navigation a:hover
+{
+    text-decoration:none;
+    color:rgb(50,50,50);
+}
+
+.site-message
+{
+    width:350px;
+    height:130px;
+    position:absolute;
+    z-index:1;
+    margin:20px 0 0 530px;
+    color:rgb(234,239,247);
+    overflow:hidden;
+}
+
+.site-message h1
+{
+    width:350px;
+    text-align:right;
+    font-size:230%;
+}
+
+.site-message h2
+{
+    float:right;
+    width:270px;
+    margin:8px 0 0 0;
+    text-align:right;
+    line-height:100%;
+    font-size:160%;
+}
+
+.site-message h3
+{
+    float:right;
+    width:270px;
+    margin:10px 0 0 0;
+    text-align:right;
+    font-size:140%;
+}
+
+.site-message h3 a
+{
+    text-decoration:none;
+    color:rgb(234,239,247);
+}
+
+.site-message h3 a:hover
+{
+    text-decoration:none;
+    color:rgb(50,50,50);
+}

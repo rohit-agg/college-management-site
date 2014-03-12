@@ -1,0 +1,8 @@
+*.class
+*.jspf
+*.classpath
+*.project
+bin/
+build/
+nbproject/
+dist/

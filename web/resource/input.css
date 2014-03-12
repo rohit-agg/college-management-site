@@ -1,0 +1,116 @@
+/* 
+    Document   : input
+    Created on : Jul 8, 2011, 12:49:03 AM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+form
+{
+    border-style: double;
+    border-width: thick;
+    border-color: springgreen;
+    float: left;
+    font-size: 125%;
+    font-weight: bold;
+    margin: 20px 0px;
+    max-width: 610px;
+    overflow: auto;
+    padding: 10px;
+    position: static;
+    table-layout: fixed;
+}
+
+form td
+{
+    padding: 0px 10px 5px 0px;
+}
+
+form fieldset
+{
+    padding:10px 0 10px 10px !important;
+    padding:0;
+    border:solid 1px rgb(220,220,220);
+}
+
+form fieldset legend
+{
+    margin:0 0 0 5px !important;
+    margin:0 0 20px 5px;
+    padding:0 2px 0 2px;
+    color: blueviolet;
+    font-weight:bold;
+    font-size:130%;
+}
+
+form td.button
+{
+    padding-top: 10px;
+    text-align: center;
+    border-top-style: solid;
+}
+
+input[type="checkbox"]
+{
+    margin-right: 5px;
+}
+
+input[type="textbox"], input[type="password"]
+{
+    text-align: center;
+}
+
+input[type="radio"]
+{
+    margin-left: 10px;
+}
+
+input[type="textbox"]:focus, textarea:focus, select:focus
+{
+    background-color: lightcyan;
+    font-size: 125%;
+    border: 1px solid #000000;
+}
+
+input[type="password"]:focus
+{
+    background-color: gainsboro;
+    font-size: 125%;
+    border: 1px solid #000000;
+}
+
+input[type="submit"], input[type="button"]
+{
+    font-size: 110%;
+    cursor: pointer;
+}
+
+form td span input[type="textbox"], form td span select
+{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.internal-error
+{
+    clear: both;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: thin;
+    padding: 15px 20px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+    text-align: justify;
+    font-size: 125%;
+    font-weight: bold;
+    border-color: #ff0000;
+    background-color: #fad4d4;
+    background-image: url(image/cancel.png);
+}
+
+.internal-error li
+{
+    list-style-image: url(image/bullet.png);
+    margin-left: 60px;
+}

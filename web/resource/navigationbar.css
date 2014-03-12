@@ -1,0 +1,72 @@
+/* 
+    Document   : navigationbar
+    Created on : Jul 4, 2011, 10:16:45 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.main-navigation .round-border
+{
+    width:10px;
+    height:10px;
+    position:absolute;
+    z-index:100;
+    margin:0 0 0 190px;
+    background:url(image/navigation_corner.gif) no-repeat;
+}
+
+.main-navigation h1.first
+{
+    clear:both;
+    margin:0px;
+    padding:4px 20px 3px 20px;
+    background-color:rgb(190,190,190);
+    font-family:"trebuchet ms",arial,sans-serif;
+    color:rgb(255,255,255);
+    font-weight:bold;
+    font-size:150%;
+}
+
+.navigation-grid
+{
+    width:199px;
+    border-bottom:solid 1px rgb(200,200,200);
+}
+
+.navigation-grid dt a, .navigation-grid dt a:visited
+{
+    display:block;
+    min-height:2.0em;
+    height:auto !important;
+    height:2.0em;
+    line-height:2.0em;
+    padding:0px 10px 0px 20px;
+    border-top: solid 1px rgb(200,200,200);
+    text-decoration:none;
+    color:rgb(70,122,167);
+    font-weight:bold;
+    font-size:120%;
+}
+
+.navigation-grid dd a, .navigation-grid dd a:visited
+{
+    display:block;
+    min-height:1.7em;
+    height:auto !important;
+    height:1.7em;
+    line-height:1.7em;
+    padding:0px 10px 0px 40px;
+    border:none;
+    font-weight:normal;
+    text-decoration:none;
+    color:rgb(70,122,167);
+    font-size:120%;
+}
+
+.navigation-grid dt a:hover, .navigation-grid dd a:hover
+{
+    background-color:rgb(225,225,225);
+    color:rgb(42,90,138);
+    text-decoration:none;
+}
